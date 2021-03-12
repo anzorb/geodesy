@@ -6,7 +6,8 @@
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
 'use strict';
-if (typeof module!='undefined' && module.exports) var Dms = require('./dms.js'); // ≡ import Dms from 'dms.js'
+var Dms;
+if (typeof module!='undefined' && module.exports) Dms = require('./dms.js'); // ≡ import Dms from 'dms.js'
 
 
 /**
